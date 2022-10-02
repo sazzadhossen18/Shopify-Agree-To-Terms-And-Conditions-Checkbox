@@ -24,4 +24,26 @@ $(document).ready(function() {
   });
   
   
-  
+  Button should be enabled if all checkboxes are checked
+
+<form>
+  <input type="checkbox" id="check" />
+  <label for="check">Check Dis Box</label>
+  <input type="submit" id="submit" value="Submit" disabled />
+</form>
+
+#submit {
+  display: block;
+  margin: 20px 0;
+}
+
+var checkboxes = $("input[type='checkbox']"),
+    submitButt = $("input[type='submit']");
+
+checkboxes.click(function() {
+    submitButt.attr("disabled", !checkboxes.is(":checked"));
+});
+
+
+
+
