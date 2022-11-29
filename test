@@ -1,5 +1,5 @@
 
-
+Source:https://community.shopify.com/c/shopify-design/cart-add-an-agree-to-terms-and-conditions-checkbox/td-p/614939
 
 
 <p style="float: none; text-align: right; clear: both; margin: 10px 0;">
@@ -8,6 +8,13 @@
     I agree with the <a href="/pages/terms-and-conditions">terms and conditions</a>.
   </label>
 </p>
+
+
+header:
+<link rel="preload" href="https://code.jquery.com/jquery-2.2.4.min.js" as="script">
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  
+
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
 
